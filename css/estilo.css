@@ -1,0 +1,36 @@
+.body_mensagem{
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.img{
+    width: 250px;
+    height: 250px;
+   background:url("../img/atomo.gif");
+   background-size: 100%;
+   background-repeat:no-repeat;
+    margin-top: 20px;
+    margin-left: 515px;
+}
+.conteiner_mensagem{
+    width: 600px;
+    height: auto;
+    background-color:#333333 ;
+    filter: opacity(0.5);
+    border-radius: 8px;
+    float: left;
+    margin-left: 350px;
+    margin-top:25px;
+    text-align: left;
+    color: white;
+    box-shadow: 1px 1px 25px #fc0fc0;
+}
+.mensagem{
+    width: 575px;
+    height: 1255px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
